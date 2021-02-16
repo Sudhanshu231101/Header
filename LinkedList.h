@@ -25,6 +25,24 @@ temp->next = newNode;
 }
 }
 
+void traverse()
+{
+  node* temp = head;
+  if(head==NULL){
+    printf("The linked list is empty");
+  }
+  else{
+    while(temp!=NULL){
+      printf("%d",temp->data);
+      temp=temp->data;
+  }
+}
+
+  
+
+  
+    
+
 
 
 
